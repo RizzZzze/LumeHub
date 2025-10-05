@@ -1,27 +1,25 @@
 # 🌌 LumeHub — Lumera Testnet Explorer (Frontend-only)
 
-Read-only DApp pulling real data from Lumera testnet LCD (no backend).
+[![Live Demo](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://lume-hub.vercel.app/)
+[![Lumera Network](https://img.shields.io/badge/Lumera-Testnet-blue?style=for-the-badge)](https://lumera.io)
 
-Modules:
-- 🪙 Wallet (balances by address)
-- ⚙️ Validators (staking module)
-- 🏛 Governance (proposals)
-- 🧠 CosmWasm Playground (smart query)
+A **read-only DApp** that pulls real data from the **Lumera testnet LCD** — no backend required.  
+It provides a clean UI for viewing on-chain data modules:
 
-Endpoints: KJNodes (primary), Nodevism & BlockHunters (fallbacks).
+### 🧩 Modules
+- 💰 **Wallet** — check balances by address  
+- 🧠 **Validators** — staking module and validator info  
+- 🏛 **Governance** — view proposals and statuses  
+- 🧬 **CosmWasm Playground** — test smart queries interactively  
+- 🛰 **Node Status** — shows endpoint uptime and latency  
 
-## Run
+**Endpoints used:**  
+KJNodes (primary), Nodevism, BlockHunters (fallbacks)
+
+---
+
+## ⚙️ Run Locally
+
 ```bash
 npm install
 npm run dev
-```
-
-
-## Quick Start (Codespaces)
-1) Code → Codespaces → Create codespace on main
-2) In terminal:
-   npm install
-   npm run dev
-
-## Deploy (Vercel)
-Add New Project → select repo → Deploy
